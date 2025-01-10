@@ -61,6 +61,29 @@
             bottom: 0;
             width: 100%;
         }
+        @media (max-width: 768px) {
+            table, th, td {
+                font-size: 0.9em;
+            }
+            th, td {
+                padding: 8px;
+            }
+            header {
+                font-size: 1.5em;
+                padding: 15px;
+            }
+        }
+        @media (max-width: 480px) {
+            table {
+                display: block;
+                overflow-x: auto;
+                white-space: nowrap;
+            }
+            header {
+                font-size: 1.2em;
+                padding: 10px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -203,3 +226,4 @@
     </footer>
 </body>
 </html>
+
